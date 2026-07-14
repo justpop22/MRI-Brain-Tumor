@@ -36,3 +36,6 @@ The model leverages a traditional U-Net design optimized for medical image segme
   1. Contracting Path (Encoder): Successive blocks of convolutional layers, batch normalization, and max-pooling to extract structural features.
   2. Expanding Path (Decoder): Up-sampling (transposed convolutions or bilinear upsampling) concatenated with corresponding high-resolution features from the encoder to localized spatial structures.
   3. Loss Function & Callbacks: Optimized using Adam with training monitored via validation performance, employing callbacks like EarlyStopping, ModelCheckpoint, and ReduceLROnPlateau.
+
+# OutPut:
+<img width="1043" height="500" alt="BrainTumor" src="https://github.com/user-attachments/assets/186dc794-0b11-48d9-989d-5e4a28d10a5e" />
